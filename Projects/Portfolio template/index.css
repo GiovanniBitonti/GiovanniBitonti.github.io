@@ -1,0 +1,345 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color:rgb(50, 48, 77);
+}
+
+.nav {
+  display: flex;
+  float: left;
+  padding: 5px 10px 10px 5px;
+  background-color: brown;
+  border-bottom: 2px solid rgb(92, 25, 25);
+  width: 100%;
+  position: fixed;
+}
+
+.menu__item {
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  font-family: 'Goldman', cursive;
+  color: snow;
+}
+
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(50, 48, 77);
+    background-size: cover;
+}
+
+.header{
+    font-family: 'Goldman', cursive;
+    font-size: 2.4rem;
+    color: snow;
+    text-align: center;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+     -ms-animation: fadein 5s;
+      -o-animation: fadein 5s;
+         animation: fadein 5s;
+}
+
+
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+
+@-moz-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+
+@-ms-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+
+@-o-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+#job {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.learn-more {
+    border: 1px solid snow;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 5px;
+    color: snow;
+}
+
+.learn-more:hover {
+    border: 1px solid red;
+}
+
+
+.two {
+  padding-top: 40px;
+    background-color:rgb(69, 66, 102);
+    font-family: 'Goldman', cursive;
+}
+
+.about {
+    text-align: center;
+    padding-top: 10px;
+    color: snow;
+    font-size: 1.3rem;
+}
+
+.fa-user-plus{
+    font-size: 7rem;
+}
+
+#pa {
+    width: 60%;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+}
+
+#projects-title {
+    text-align: center;
+    font-size: 2rem;
+    color: snow;
+    padding-top: 80px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    padding-top: 50px;
+      
+}
+
+.box1 {
+    background-color: rgb(46, 45, 56);
+    background-size: 400% 400%;
+    height: 250px;
+    width:90%;
+    object-fit: cover; /*if i wanted to add a pic*/
+    border-radius: 3%;
+    box-shadow: none;
+    margin-left: 15px;
+}
+
+.box1:hover {
+    box-shadow: 0 0 11px red; 
+  }
+
+
+.project-title {
+    font-family: 'Goldman', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 3px white;
+	  font-size: 2.5rem;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    color: azure;
+}
+
+.contact-links {
+    padding-bottom: 40px;
+}
+
+#talk {
+    text-align: center;
+    color: snow;
+    font-family: 'Goldman', cursive;
+    font-size: 2rem;
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+    list-style:none;
+    padding-inline-start: 0;
+}
+
+#copy {
+    text-align: center;
+    padding-bottom: 30px;
+    color: snow;
+    font-family: 'Goldman', cursive;
+}
+
+.btn-contact-details {
+    text-decoration: none;
+    margin: 15px;
+    font-size: 1.6rem;
+    color: azure;
+}
+
+#mail:hover {
+    color: rgb(146, 77, 100);
+}
+
+#lin:hover {
+    color: rgb(42, 42, 138);
+}
+
+#git:hover {
+    color: rgb(65, 62, 62);
+}
+
+#insta:hover {
+    color: rgb(184, 141, 61);
+}
+
+#facebook:hover {
+    color: rgb(53, 53, 231);
+}
+
+
+@media (min-width: 1281px) {
+  
+  .nav {
+    display: flex;
+    float: left;
+    padding: 5px 10px 10px 5px;
+    background-color: brown;
+    border-bottom: 2px solid rgb(92, 25, 25);
+    width: 100%;
+    position: fixed;
+  }
+  
+  .menu__item {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    color: snow;
+  }
+  
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .nav {
+    display: flex;
+    float: left;
+    padding: 5px 10px 10px 5px;
+    background-color: brown;
+    border-bottom: 2px solid rgb(92, 25, 25);
+    width: 100%;
+    position: fixed;
+  }
+  
+  .menu__item {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    color: snow;
+  }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .nav {
+    display: flex;
+    float: left;
+    padding: 5px 10px 10px 5px;
+    background-color: brown;
+    border-bottom: 2px solid rgb(92, 25, 25);
+    width: 100%;
+    position: fixed;
+  }
+  
+  .menu__item {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    color: snow;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .nav {
+    display: flex;
+    float: left;
+    padding: 5px 10px 10px 5px;
+    background-color: brown;
+    border-bottom: 2px solid rgb(92, 25, 25);
+    width: 100%;
+    position: fixed;
+  }
+  
+  .menu__item {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    color: snow;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .nav {
+    display: flex;
+    float: left;
+    padding: 5px 10px 10px 5px;
+    background-color: brown;
+    border-bottom: 2px solid rgb(92, 25, 25);
+    width: 100%;
+    position: fixed;
+  }
+  
+  .menu__item {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    color: snow;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .nav {
+    display: flex;
+    float: left;
+    padding: 5px 10px 10px 5px;
+    background-color: brown;
+    border-bottom: 2px solid rgb(92, 25, 25);
+    width: 100%;
+    position: fixed;
+  }
+  
+  .menu__item {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+    color: snow;
+  }
+  
+}
