@@ -219,6 +219,11 @@ body, input, select, textarea {
     line-height: 1.75em;
 }
 
+#profilePic{
+    border-radius: 50%;
+    width: 12%;
+}
+
 a {
     -moz-transition: border-color 0.2s ease-in-out;
     -webkit-transition: border-color 0.2s ease-in-out;
